@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>mask detection</title>
+
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"
+    />
+
+    <!-- bootstrap core css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='css/bootstrap.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='css/tryNow.css')}}"
+    />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link
+      href="{{ url_for('static',filename='css/style.css')}}"
+      rel="stylesheet"
+    />
+    <!-- responsive style -->
+    <link
+      href="{{ url_for('static',filename='css/responsive.css')}}"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="#">
+            <div class="logo_box">
+              <img
+                src="{{ url_for('static',filename='images/mask.png')}}"
+                alt=""
+              />
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-2">
+              <li class="nav-item active">
+                <a class="nav-link" href="/"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about">About the website </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog">about the Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact">Try now</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control nav_search-input mr-sm-2 d-none"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                value=""
+              />
+              <button
+                class="btn my-2 my-sm-0 nav_search-btn"
+                type="submit"
+              ></button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- contact section -->
+    <section class="tryit_section">
+      <div class="tryit_section__cont">
+        <img id="bg" src="{{ url_for('video_feed') }}" />
+      </div>
+    </section>
+
+    <footer>
+      <!-- info section -->
+      <section class="info_section layout_padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 info_detail">
+              <div>
+                <p>
+                  This site is used for detecting people wearing mask in public
+                  or not because as we all know covid is a very deadly disease
+                  and we all were deeply effected by this so by this we can
+                  application we put an innitiative to stop the spreadof virus.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 address_container">
+              <div>
+                <h3>Address:</h3>
+                <div class="address_link-container">
+                  <a href="">
+                    <img
+                      src="{{ url_for('static',filename='images/location.png')}}"
+                      alt=""
+                    />
+                    <span>
+                      R-308, Alaknand Apartements, Gomti Nagar, Lucknow, UP
+                    </span>
+                  </a>
+                  <a href="">
+                    <img
+                      src="{{ url_for('static',filename='images/phone.png')}}"
+                      alt=""
+                    />
+                    <span> Tel: +91 8090177488 </span>
+                  </a>
+                  <a href="">
+                    <img
+                      src="{{ url_for('static',filename='images/mail.png')}}"
+                      alt=""
+                    />
+                    <span> Email: am649@snu.edu.in </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 news_container">
+              <div>
+                <div class="social_container">
+                  <div>
+                    <a
+                      class="footer-link"
+                      href="https://m.facebook.com/anoushka.mishra.353"
+                      ><img
+                        src="{{ url_for('static',filename='images/fb.png')}}"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div>
+                    <a
+                      class="footer-link"
+                      href="https://github.com/anoushkamishra2803"
+                    >
+                      <img
+                        src="{{ url_for('static',filename='images/github-icon')}}.png"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div>
+                    <a
+                      class="footer-link"
+                      href="https://www.linkedin.com/in/anoushka-mishra-939345201/"
+                    >
+                      <img
+                        src="{{ url_for('static',filename='images/linkedin.png')}}"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end info section -->
+
+      <!-- footer section -->
+      <section class="container-fluid footer_section">
+        <p>Copyright &copy; 2022 All Rights Reserved By Anoushka Mishra</p>
+      </section>
+    </footer>
+    <!-- footer section -->
+
+    <script
+      type="text/javascript"
+      src="{{ url_for('static',filename='js/jquery-3.4.1.min.js')}}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{{ url_for('static',filename='js/bootstrap.js')}}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        navText: [],
+        autoplay: true,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+
+    <script>
+      $(".nav_search-btn").click(function () {
+        if ($(".nav_search-input").hasClass("d-none")) {
+          event.preventDefault();
+          $(".nav_search-input")
+            .animate(
+              {
+                left: "-1000px",
+              },
+              "1000000"
+            )
+            .removeClass("d-none");
+        } else {
+          $(".nav_search-input")
+            .animate(
+              {
+                left: "0px",
+              },
+              "1000000"
+            )
+            .addClass("d-none");
+        }
+      });
+    </script>
+
+    <script>
+      // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+      // Australia.
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 11,
+          center: {
+            lat: 40.645037,
+            lng: -73.880224,
+          },
+        });
+
+        var image =
+          "{{ url_for('static',filename='images/maps-and')}}-flags.png";
+        var beachMarker = new google.maps.Marker({
+          position: {
+            lat: 40.645037,
+            lng: -73.880224,
+          },
+          map: map,
+          icon: image,
+        });
+      }
+    </script>
+    <!-- google map js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+    <!-- end google map js -->
+
+    <script
+      async
+      src="{{ url_for('static',filename='js/opencv.js')}}"
+      type="text/javascript"
+    ></script>
+    <script
+      src="{{ url_for('static',filename='js/utils.js')}}"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+
+    <!-- <script type="text/javascript">
+      function onCvLoaded() {
+        console.log("cv", cv);
+
+        cv.onRuntimeInitialized = onReady;
+      }
+      const video = document.getElementById("videoInput");
+      const actionBtn = document.getElementById("actionBtn");
+      const width = 320;
+      const height = 240;
+      const FPS = 120;
+      let stream;
+      let streaming = false;
+
+      let labels_dict = { 0: "MASK", 1: "NO MASK" };
+      let color_dict = { 0: (0, 255, 0), 1: (0, 0, 255) };
+
+      brightness_increase = 60;
+      // load model "model-090.model" inside async function
+
+      async function onReady() {
+        let gray = new cv.Mat();
+        let faces = new cv.RectVector();
+        let classifier = new cv.CascadeClassifier();
+        let utils = new Utils("errorMessage");
+        let faceCascadeFile = "haarcascade_frontalface_default.xml"; // path to xml
+
+        utils.createFileFromUrl(faceCascadeFile, faceCascadeFile, () => {
+          classifier.load(faceCascadeFile); // in the callback, load the cascade from file
+        });
+
+        let src;
+        let dst;
+        const cap = new cv.VideoCapture(video);
+
+        let model = await tf.loadLayersModel("./model-090.json/model.json");
+
+        console.log("Clicked");
+        actionBtn.addEventListener("click", () => {
+          if (streaming) {
+            stop();
+            actionBtn.textContent = "Start";
+          } else {
+            start();
+            actionBtn.textContent = "Stop";
+          }
+        });
+
+        function start() {
+          navigator.mediaDevices
+            .getUserMedia({ video: true, audio: false })
+            .then((_stream) => {
+              stream = _stream;
+              console.log("stream", stream);
+              video.srcObject = stream;
+              video.play();
+              streaming = true;
+              src = new cv.Mat(height, width, cv.CV_8UC4);
+              dst = new cv.Mat(height, width, cv.CV_8UC1);
+              setTimeout(processVideo, 0);
+            })
+            .catch((err) => console.log(`An error occurred: ${err}`));
+        }
+
+        function stop() {
+          if (video) {
+            video.pause();
+            video.srcObject = null;
+          }
+          if (stream) {
+            stream.getVideoTracks()[0].stop();
+          }
+          streaming = false;
+        }
+
+        function processVideo() {
+          if (!streaming) {
+            src.delete();
+            dst.delete();
+            return;
+          }
+          const begin = Date.now();
+          cap.read(src);
+          src.copyTo(dst);
+          cv.cvtColor(dst, gray, cv.COLOR_BGR2GRAY, 0);
+
+          classifier.detectMultiScale(gray, faces, 1.1, 3, 0);
+
+          // Draw a rectangle around the faces with thickness 2
+          for (let i = 0; i < faces.size(); ++i) {
+            const face = faces.get(i);
+            const x = face.x;
+            const y = face.y;
+            const w = face.width;
+            const h = face.height;
+
+            // increase brightness
+            let face_img = dst.roi(face);
+
+            cv.addWeighted(
+              face_img,
+              1.0 + brightness_increase / 100,
+              face_img,
+              0,
+              0,
+              face_img
+            );
+            cv.imshow("canvasOutput2", face_img);
+
+            // draw rectangle
+            cv.rectangle(
+              dst,
+              new cv.Point(x, y),
+              new cv.Point(x + w, y + h),
+              [0, 255, 0, 255],
+              2
+            );
+
+            // get face image from gray
+            console.log(gray.roi(face));
+          }
+
+          cv.imshow("canvasOutput", dst);
+
+          const delay = 1000 / FPS - (Date.now() - begin);
+          setTimeout(processVideo, delay);
+        }
+      }
+    </script> -->
+  </body>
+</html>
