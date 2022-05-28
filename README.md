@@ -2,6 +2,10 @@
 It is a real time face - mask recognition Website/application which will tell you that are you wearing a mask or not! It is based on the COVID-19th guidelines as mask was made compulsory for all to protect oneself from this deadly disease.
 The main aim of the application is judge where the person is wearing the mask or not.It can be used in many places like retail airport hospital etc.
 
+# IMPORTANT 
+AS I HAVE USED HAARCASCADE LIB PLEASE WEAR SURGICAL MASK THAT COVERS YOUR CORNER OF THE FACE AS WELL AND IS FITTED PROPERLY KINDLY WAIT FOR SOMETIME SO THAT IT CAN FETCH THE INFORMATION . THE FOLLOWING EG IS- 
+![WhatsApp Image 2022-05-28 at 8 16 25 PM](https://user-images.githubusercontent.com/89337719/170830489-a071fd34-273d-469f-9be0-39f2994d7d1b.jpeg)
+
 
 # FEATURES
 1)Check Individuals And Crowds Wearing Masks In Public
