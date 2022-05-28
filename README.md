@@ -8,17 +8,17 @@ AS I HAVE USED HAARCASCADE LIB PLEASE WEAR SURGICAL MASK THAT COVERS YOUR CORNER
 
 
 # FEATURES
-1)Check Individuals And Crowds Wearing Masks In Public
+1) Check Individuals And Crowds Wearing Masks In Public
 
-2)Use Digital Screens To Remind Visitors To Wear Masks
+2) Use Digital Screens To Remind Visitors To Wear Masks
 
-3)Alert Staff When No Masks Are Detected
+3) Alert Staff When No Masks Are Detected
 
-4)Works With Existing USB Or IP Cameras
+4) Works With Existing USB Or IP Cameras
 
-5)Anonymous & Spoof Proof
+5) Anonymous & Spoof Proof
 
-# USES
+# USE CASES/ WHERE IT ALL CAN BE USED
 
 # Retail
 Retailers need to monitor their premises to control the current occupancy and wearing of masks. Digital screens can be used to display information for
@@ -40,6 +40,40 @@ system can send alerts or reminders to those not complying.
 
 
 
+
+
+
+
+
+# HOW TO SET UP THIS API IN LOCAL
+
+1) download the whole package 
+2) open the terminal
+# IMPORTANCT 3) connect with directory
+4) type "dir" after the location of the file for eg -
+# for eg - C:\Users\DELL\Downloads\Flask>dir
+5) then type the folder name where the main.py is located, for example in my case it was a folder named Flask consisting a folder named Flask which had file main.py
+so type cd"FILE NAME" after the location 
+# for eg- C:\Users\DELL\Downloads\Flask>cd Flask
+![WhatsApp Image 2022-05-27 at 12 43 56 PM](https://user-images.githubusercontent.com/89337719/170650290-89f88236-2f1c-4120-9a5c-117d634609e3.jpeg)
+6) Then in the same terminal type python main.py after stating the dir loctaion f
+# for eg- C:\Users\DELL\Downloads\Flask\Flask>python main.py
+7) after this the api will start to run.
+8) To see the api working click on this in the terminal http://127.0.0.1:5000
+which will be located in the following screenshot
+ ![WhatsApp Image 2022-05-27 at 1 15 38 PM](https://user-images.githubusercontent.com/89337719/170654301-9a432e94-de14-406b-b2c9-1e5c1b927dc3.jpeg)
+9) to see the api working click on my website "TRY NOW" button on the nav bar and the api will start to work
+10) 
+# TO STOP THIS API 
+1) click on the terminal 
+2) press CTRL + C
+3) the api will be closed 
+
+
+
+
+
+
 # FUTURISTIC APPROACH
 mask detection technology is trained to detect all the variations of face masks that are available. From medical masks to personalized cloth masks, the system will
 accurately detect and confirm mask compliance.
@@ -51,33 +85,6 @@ message can be delivered via a digital screen to remind all visitors to wear mas
 According to the guidelines set by the World Health Organization (WHO) a face mask needs to cover the face fully, including the nose and the chin.Therefore, the
 detector only classifies someone as wearing a mask if these conditions are satisfied. software is also spoof proof which means that it understands if you’re
 covering your face with a hand or an object other than a mask.
-
-
-
-
-
-# STEPS TO MAKE THE API WORK
-1)download the whole package 
-2)open the terminal
-# 3) connect with directory
-4)type "dir" after the location of the file for eg -
-# for eg - C:\Users\DELL\Downloads\Flask>dir
-5) then type the folder name where the main.py is located, for example in my case it was a folder named Flask consisting a folder named Flask which had file main.py
-so type cd"FILE NAME" after the location 
-# for eg- C:\Users\DELL\Downloads\Flask>cd Flask
-![WhatsApp Image 2022-05-27 at 12 43 56 PM](https://user-images.githubusercontent.com/89337719/170650290-89f88236-2f1c-4120-9a5c-117d634609e3.jpeg)
-6)Then in the same terminal type python main.py after stating the dir loctaion f
-# for eg- C:\Users\DELL\Downloads\Flask\Flask>python main.py
-7) after this the api will start to run.
-8) To see the api working click on this in the terminal http://127.0.0.1:5000
-which will be located in the following screenshot
- ![WhatsApp Image 2022-05-27 at 1 15 38 PM](https://user-images.githubusercontent.com/89337719/170654301-9a432e94-de14-406b-b2c9-1e5c1b927dc3.jpeg)
-10)to see the api working click on my website "TRY NOW" button on the nav bar and the api will start to work
-# To stop the api 
-1) click on the terminal 
-2) press CTRL + C
-3) the api will be closed 
-
 
 
 
