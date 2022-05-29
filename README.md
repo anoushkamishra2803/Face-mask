@@ -51,19 +51,21 @@ system can send alerts or reminders to those not complying.
 2) open the terminal
 # IMPORTANCT 3) connect with directory
 4) type "dir" after the location of the file for eg -
-# for eg - C:\Users\DELL\Downloads\Flask>dir
+## for eg - C:\Users\DELL\Downloads\Flask>dir
 5) then type the folder name where the main.py is located, for example in my case it was a folder named Flask consisting a folder named Flask which had file main.py
 so type cd"FILE NAME" after the location 
-# for eg- C:\Users\DELL\Downloads\Flask>cd Flask
+## for eg- C:\Users\DELL\Downloads\Flask>cd Flask
 ![WhatsApp Image 2022-05-27 at 12 43 56 PM](https://user-images.githubusercontent.com/89337719/170650290-89f88236-2f1c-4120-9a5c-117d634609e3.jpeg)
 6) Then in the same terminal type python main.py after stating the dir loctaion f
-# for eg- C:\Users\DELL\Downloads\Flask\Flask>python main.py
+## for eg- C:\Users\DELL\Downloads\Flask\Flask>python main.py
 7) after this the api will start to run.
 8) To see the api working click on this in the terminal http://127.0.0.1:5000
 which will be located in the following screenshot
  ![WhatsApp Image 2022-05-27 at 1 15 38 PM](https://user-images.githubusercontent.com/89337719/170654301-9a432e94-de14-406b-b2c9-1e5c1b927dc3.jpeg)
 9) to see the api working click on my website "TRY NOW" button on the nav bar and the api will start to work
-10) 
+## NOTE - If you face error during the code such like - importing of libraries kindly import the libraries by command - pip install "name of the package".           for eg - pip install keras.models
+
+
 # TO STOP THIS API 
 1) click on the terminal 
 2) press CTRL + C
