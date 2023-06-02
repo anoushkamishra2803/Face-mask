@@ -32,7 +32,7 @@ gate or entrance to make sure that all passengers follow the safety rules when b
 Wearing face masks in public transport will be mandatory in many parts of the world. Public transport organizations can use the software to automate the checking
 process with very little resources needed and with efficiency.
 
-# Coorperate Buildings
+# Corporate Buildings
 With many office buildings opening up and employees coming back to work, face mask detection can be used to maintain a safe environment for everyone. The mask detection 
 system can send alerts or reminders to those not complying.
 
